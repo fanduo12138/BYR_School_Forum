@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">北邮人Forum</string>
+    <string name="app_name_dir">BYR_Forum</string>
+
+    <!--UI登录-->
+    <string name="action_settings">Settings</string>
+    <string name="dummy_email">ID</string>
+    <string name="dummy_password">123</string>
+    <string name="Sign_in">登录</string>
+    <string name="Success">成功</string>
+    <string name="Loading">加载中..</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="top_ten">十大</string>
+    <string name="search">搜索</string>
+    <string name="keyword_search">关键字搜索</string>
+    <string name="search_board">版面搜索</string>
+    <string name="prompt_username">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_up">注册</string>
+    <string name="guest_visit">以游客身份浏览</string>
+    <string name="my_face_description">我的头像</string>
+    <string name="reply_me">\t回复我的</string>
+    <string name="my_secret_message">\t我的私信</string>
+    <string name="my_facorite">\t我的收藏</string>
+    <string name="my_settings">\t我的设置</string>
+    <string name="all_sections">所有分区</string>
+    <string name="favorite_boards">收藏版面</string>
+    <string name="favorite_boards_success">收藏版面成功</string>
+    <string name="favorite_boards_cancel">取消收藏版面</string>
+    <string name="action_search">搜索相关帖子</string>
+    <string name="reply_numbers">人回复</string>
+    <string name="post">发布</string>
+    <string name="update">更新</string>
+    <string name="read_article">阅读文章</string>
+    <string name="all_replies">所有回复</string>
+    <string name="main_floor">楼主</string>
+    <string name="first_floor">沙发</string>
+    <string name="second_floor">板凳</string>
+    <string name="_floor">楼</string>
+    <string name="image">图片</string>
+    <string name="camera">拍照</string>
+    <string name="senior_reply">高级</string>
+    <string name="emoji_classic">经典表情</string>
+    <string name="emoji_tuzki">兔斯基</string>
+    <string name="emoji_yoci">悠嘻猴</string>
+    <string name="emoji_onion">洋葱头</string>
+    <string name="board_description">版面描述</string>
+    <string name="article_numbers_today">今日有几个新帖</string>
+    <string name="reply_main_article">回复楼主：</string>
+    <string name="post_article_title">帖子标题</string>
+    <string name="post_article_content">帖子内容</string>
+    <string name="write_article">撰写帖子</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is wrong</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_article_list">ArticleListActivity</string>
+
+    <string name="title_activity_board_article_list">BoardArticleListActivity</string>
+    <string name="title_activity_read_article">ReadArticleActivity</string>
+    <string name="title_activity_senior_reply">SeniorReplyActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

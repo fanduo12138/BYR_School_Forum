@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.bupt.forum.activity.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/tab_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_main_tab"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/topten"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/main_tab_selector_topten"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/top_ten"
+            android:textSize="20sp"
+            android:textColor="@drawable/main_tab_selector_tv_color"/>
+
+        <RadioButton
+            android:id="@+id/borad"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_tab_selector_board"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/all_sections"
+            android:textSize="20sp"
+            android:textColor="@drawable/main_tab_selector_tv_color"/>
+
+
+        <RadioButton
+            android:id="@+id/main_search"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_tab_selector_mine"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/search"
+            android:textSize="20sp"
+            android:textColor="@drawable/main_tab_selector_tv_color"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>
+

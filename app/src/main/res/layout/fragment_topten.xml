@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout
+        android:id="@+id/layout_topten_article_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ListView
+            android:id="@+id/topten_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            android:divider="@color/blue_normal"
+            android:dividerHeight="1sp"
+            android:fadingEdge="none">
+        </ListView>
+
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+
+</LinearLayout>

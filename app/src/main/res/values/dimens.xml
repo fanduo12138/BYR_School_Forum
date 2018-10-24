@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="parent_expandable_list_height">40dp</dimen>
+    <dimen name="parent_expandable_list_group_padding_left">10dp</dimen>
+    <dimen name="child_expandable_list_group_padding_left">40dp</dimen>
+    <dimen name="child_expandable_list_child_padding_left">75dp</dimen>
+    <dimen name="child_paddingg_left_relative_to_parent">20dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="user_face_scale">50sp</dimen>
+    <dimen name="article_content_textsize">8sp</dimen>
+    <dimen name="article_content_textpadding_top">8sp</dimen>
+    <dimen name="tab_height">40dp</dimen>
+
+    <dimen name="bar_text_size">16dp</dimen>
+    <dimen name="bar_height">40dp</dimen>
+
+</resources>

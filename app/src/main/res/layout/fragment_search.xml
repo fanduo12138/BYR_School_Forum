@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bupt.forum.fragment.SearchFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--EditText
+        android:id="@+id/search_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:hint="@string/search_board" /-->
+
+    <Spinner android:id="@+id/search_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/BoardArray"/>
+
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:hint="@string/keyword_search" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ff33b5e5"
+        android:text="@string/search" />
+
+</LinearLayout>

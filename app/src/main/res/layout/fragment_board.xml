@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_default_background">
+
+
+    <ExpandableListView
+    android:id="@+id/expandablelistview_section"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/my_default_background"
+    android:paddingBottom="8dp"
+    android:paddingEnd="0dp"
+    android:paddingStart="8dp"
+    android:paddingTop="8dp"
+    android:textAppearance="?android:attr/textAppearanceListItem"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:visibility="gone"
+    android:fadingEdge="none"/>
+
+
+    <GridView
+        android:id="@+id/grdiview_favorite_boards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_default_background"
+        android:paddingTop="4dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"/>
+
+</LinearLayout>
